@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Performa | Get In Touch</title>
+    <link rel="stylesheet" href="contactStyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">PERFORMA</a>
+            <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#services">Services</a></li>
+                <li><a href="portfolio.html" >Portfolio</a></li>
+                <li><a href="miniPortfolio.html">Mini Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/201055148006?text=Hi%20Performa!%20I'm%20interested%20in%20your%20marketing%20services" class="whatsapp-float" target="_blank" title="Chat with us on WhatsApp">
+        📱
+    </a>
+
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content animate-in">
+                <h1>Let's Connect</h1>
+                <p class="subtitle">Ready to transform your brand? <span class="highlight-text">We're here to help</span></p>
+                <p class="subtitle">Get in touch and let's create something amazing together</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Contact Form -->
+                <div class="contact-form-section animate-left">
+                    <h2>
+                        <div class="section-icon">📝</div>
+                        Send Us a Message
+                    </h2>
+                    <p>Fill out the form below and we'll get back to you within 24 hours with a personalized strategy for your brand.</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required placeholder="John">
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required placeholder="Doe">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your Company">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="performance-marketing">Performance Marketing</option>
+                                <option value="creative-strategy">Creative Strategy</option>
+                                <option value="brand-development">Brand Development</option>
+                                <option value="social-media">Social Media Management</option>
+                                <option value="analytics">Analytics & Reporting</option>
+                                <option value="consultation">Free Consultation</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Monthly Marketing Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="50k+">$50,000+</option>
+                                <option value="discuss">Let's discuss</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Tell Us About Your Goals *</label>
+                            <textarea id="message" name="message" required placeholder="Describe your marketing challenges, goals, and what you're looking to achieve..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-button">
+                            Send Message 🚀
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info animate-right">
+                    
+                    <!-- Contact Methods -->
+                    <div class="contact-methods">
+                        <h2>
+                            <div class="section-icon">💬</div>
+                            Get In Touch
+                        </h2>
+                        
+                        <a href="https://wa.me/201055148006?text=Hi%20Performa!%20I'm%20interested%20in%20your%20marketing%20services" class="contact-method" target="_blank">
+                            <div class="contact-method-icon whatsapp-icon">📱</div>
+                            <div class="contact-method-info">
+                                <h3>WhatsApp</h3>
+                                <p>Chat with us instantly for quick questions and immediate support</p>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:hello@performa.agency" class="contact-method">
+                            <div class="contact-method-icon email-icon">📧</div>
+                            <div class="contact-method-info">
+                                <h3>Email Us</h3>
+                                <p>hello@performa.agency - We respond within 4 hours</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://instagram.com/performa.agency" class="contact-method" target="_blank">
+                            <div class="contact-method-icon instagram-icon">📸</div>
+                            <div class="contact-method-info">
+                                <h3>Instagram</h3>
+                                <p>@performa.agency - Follow us for marketing tips and updates</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Business Hours -->
+                    <div class="business-info">
+                        <h2>
+                            <div class="section-icon">🕐</div>
+                            Business Hours
+                        </h2>
+                        
+                        <div class="hours-grid">
+                            <div class="hour-item">
+                                <span class="day">Saturday - Thursday</span>
+                                <span class="time">10:00 AM - 6:00 PM</span>
+                            </div>
+                            <div class="hour-item closed">
+                                <span class="day">Friday</span>
+                                <span class="time">Closed</span>
+                            </div>
+                            
+                        </div>
+                        
+                        <div style="margin-top: 1.5rem; padding: 1rem; background: rgba(0, 255, 136, 0.1); border-radius: 10px; border: 1px solid rgba(0, 255, 136, 0.2);">
+                            <p style="color: #00ff88; font-weight: 600; margin: 0;">⚡ Emergency Support Available</p>
+                            <p style="color: #ccc; font-size: 0.9rem; margin: 0.5rem 0 0;">For urgent campaigns, we're available 24/7 via WhatsApp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Don't wait! The sooner we start, the sooner you'll see results. Choose your preferred way to connect with us.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/201055148006?text=Hi%20Performa!%20I%20want%20to%20schedule%20a%20free%20consultation" class="cta-button" target="_blank">
+                        📱 WhatsApp Us Now
+                    </a>
+                    <a href="mailto:hello@performa.agency?subject=Free%20Strategy%20Session%20Request" class="cta-button secondary">
+                        📧 Email for Details
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Performa</h3>
+                    <p style="color: #999;">Full-service marketing agency focused on creativity, innovation, and measurable results.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <a href="mailto:hello@performa.agency">hello@performa.agency</a>
+                    <a href="https://wa.me/201055148006" target="_blank">WhatsApp: +1 (234) 567-890</a>
+                    <a href="https://instagram.com/performa.agency" target="_blank">@performa.agency</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="services.html">Performance Marketing</a>
+                    <a href="services.html">Creative Strategy</a>
+                    <a href="services.html">Brand Development</a>
+                    <a href="services.html">Analytics & Reporting</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="about.html">About Us</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#careers">Careers</a>
+                </div>
+            </div>
+            <div style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem; margin-top: 2rem;">
+                <p>&copy; 2025 Performa Agency. All rights reserved. | Performance Marketing Excellence</p>
+            </div>
+        </div>
+    </footer>
+    <script src="contactScript.js"></script>
+</body>
+</html>
